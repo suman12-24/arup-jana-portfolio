@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('../public/background.png')",
+            backgroundImage: "url('./assets/background.png')",
             opacity: 0.2
           }}
         />
@@ -118,7 +118,8 @@ const Hero: React.FC = () => {
               className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start"
             >
               <a
-                href="/cv.pdf" // Placeholder CV link
+                href="./assets/Final_CV_AJ.pdf"
+                download="Arup_Jana_CV.pdf"
                 className="px-8 py-3.5 rounded-full bg-cyan-500 hover:bg-cyan-400 text-black font-bold transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(6,182,212,0.4)] flex items-center gap-2"
               >
                 <Download size={20} />
@@ -171,7 +172,7 @@ const Hero: React.FC = () => {
               <div className="w-full h-full rounded-full overflow-hidden bg-slate-800 border-4 border-slate-800 shadow-2xl relative">
                 {/* Updated Image Source */}
                 <img
-                  src="../public/1750785046919.jpg"
+                  src="./assets/1750785046919.jpg"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(PERSONAL_INFO.name)}&background=0f172a&color=06b6d4&size=512&font-size=0.35&bold=true`;

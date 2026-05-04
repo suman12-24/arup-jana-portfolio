@@ -1,11 +1,11 @@
-import { 
-  Code, 
-  Smartphone, 
-  Database, 
-  Server, 
-  Terminal, 
-  Globe, 
-  Cpu, 
+import {
+  Code,
+  Smartphone,
+  Database,
+  Server,
+  Terminal,
+  Globe,
+  Cpu,
   Layers
 } from 'lucide-react';
 
@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
   role: "Mobile & Full Stack Developer",
   email: "arupjana3438@gmail.com",
   phone: "+91-9382213372",
-  github: "https://github.com",
+  github: "https://github.com/suman12-24",
   linkedin: "https://linkedin.com/in/arup-jana",
   location: "Kolkata, India",
   about: "Mobile and Full Stack Developer with hands-on industry experience in Android and cross-platform application development. Strong expertise in building scalable mobile and web applications using React Native, React.js, Node.js, and modern REST-based architectures. Proven ability to collaborate in agile teams, integrate secure APIs, and deliver production-ready solutions aligned with business objectives."
@@ -43,7 +43,7 @@ export const EXPERIENCE = [
     role: "Android Development Executive",
     location: "Kolkata, India",
     period: "Jan 2024 – Sep 2025",
-    logo: "./public/download.jpg",
+    logo: "./assets/download.jpg",
     responsibilities: [
       "Developed and maintained Android and cross-platform mobile applications using React Native (CLI & Expo).",
       "Built reusable and responsive UI components and implemented complex navigation flows.",
@@ -124,6 +124,15 @@ export const PROJECTS = [
     points: [
       "Real-time data synchronization with secure RESTful APIs.",
       "Scalable MongoDB architecture for efficient data retrieval."
+    ]
+  },
+    {
+    title: "CHAT Application",
+    period: "",
+    tech: ["React JS", "Node.js", "MongoDB"],
+    points: [
+      "Real-time chat application with WebSocket integration.",
+      "Secure authentication using JWT tokens."
     ]
   },
   {
