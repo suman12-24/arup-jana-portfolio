@@ -1,57 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!-- Main page -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://suman12-24.github.io/arup-jana-portfolio/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://suman12-24.github.io/arup-jana-portfolio/" />
   </url>
-
-  <!-- Section anchors (for rich indexing hints) -->
   <url>
     <loc>https://suman12-24.github.io/arup-jana-portfolio/#about</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <url>
-    <loc>https://suman12-24.github.io/arup-jana-portfolio/#skills</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://suman12-24.github.io/arup-jana-portfolio/#experience</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <url>
     <loc>https://suman12-24.github.io/arup-jana-portfolio/#projects</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://suman12-24.github.io/arup-jana-portfolio/#marketplace</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://suman12-24.github.io/arup-jana-portfolio/#contact</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
-
 </urlset>
