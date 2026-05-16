@@ -9,6 +9,8 @@ import {
   Layers
 } from 'lucide-react';
 
+import logoImg from './assets/download.jpg';
+
 export const PERSONAL_INFO = {
   name: "Arup Jana",
   role: "Mobile & Full Stack Developer",
@@ -16,6 +18,8 @@ export const PERSONAL_INFO = {
   phone: "+91-9382213372",
   github: "https://github.com/suman12-24",
   linkedin: "https://linkedin.com/in/arup-jana",
+  facebook: "https://www.facebook.com/arup.jana.593184/",
+  instagram: "https://www.instagram.com/arupjana_official",
   location: "Kolkata, India",
   about: "Mobile and Full Stack Developer with hands-on industry experience in Android and cross-platform application development. Strong expertise in building scalable mobile and web applications using React Native, React.js, Node.js, and modern REST-based architectures. Proven ability to collaborate in agile teams, integrate secure APIs, and deliver production-ready solutions aligned with business objectives."
 };
@@ -43,7 +47,7 @@ export const EXPERIENCE = [
     role: "Android Development Executive",
     location: "Kolkata, India",
     period: "Jan 2024 – Sep 2025",
-    logo: "./assets/download.jpg",
+    logo: logoImg,
     responsibilities: [
       "Developed and maintained Android and cross-platform mobile applications using React Native (CLI & Expo).",
       "Built reusable and responsive UI components and implemented complex navigation flows.",

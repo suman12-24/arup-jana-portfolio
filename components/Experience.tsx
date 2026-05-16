@@ -5,7 +5,7 @@ import { Briefcase } from 'lucide-react';
 
 const Experience: React.FC = () => {
   return (
-    <section id="experience" className="py-24 bg-dark relative overflow-hidden">
+    <section id="experience" aria-label="Work Experience" className="py-24 bg-dark relative overflow-hidden">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

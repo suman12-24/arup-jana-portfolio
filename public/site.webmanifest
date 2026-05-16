@@ -1,0 +1,25 @@
+{
+  "name": "Arup Jana | Mobile & Full Stack Developer",
+  "short_name": "Arup Jana",
+  "description": "Portfolio of Arup Jana — Mobile & Full Stack Developer from Kolkata, India. React Native, React.js, Node.js, Flutter, Android.",
+  "start_url": "/arup-jana-portfolio/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#06b6d4",
+  "lang": "en",
+  "orientation": "portrait-primary",
+  "categories": ["portfolio", "developer", "technology"],
+  "icons": [
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -20,7 +20,7 @@ const item: Variants = {
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="py-24 bg-dark">
+    <section id="skills" aria-label="Technical Skills" className="py-24 bg-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -5,7 +5,7 @@ import { GraduationCap } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-24 bg-dark">
+    <section id="about" aria-label="Education & About" className="py-24 bg-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Education Section */}

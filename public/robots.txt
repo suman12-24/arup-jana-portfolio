@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://suman12-24.github.io/arup-jana-portfolio/sitemap.xml

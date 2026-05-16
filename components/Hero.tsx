@@ -3,6 +3,9 @@ import { motion } from 'framer-motion';
 import { Download, Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
 import { PERSONAL_INFO } from '../constants';
 
+import bgImage from '../assets/background.png';
+import profileImg from '../assets/1750785046919.jpg';
+import cvFile from '../assets/Final_CV_AJ.pdf';
 const ROLES = [
   "Mobile & Full Stack Developer",
   "React Native Specialist",
@@ -42,14 +45,14 @@ const Hero: React.FC = () => {
   }, [text, isDeleting, loopNum, typingSpeed]);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-dark">
+    <section id="home" aria-label="Introduction" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-dark">
 
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('./assets/background.png')",
+            backgroundImage: `url(${bgImage})`,
             opacity: 0.2
           }}
         />
@@ -118,7 +121,7 @@ const Hero: React.FC = () => {
               className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start"
             >
               <a
-                href="./assets/Final_CV_AJ.pdf"
+                href={cvFile}
                 download="Arup_Jana_CV.pdf"
                 className="px-8 py-3.5 rounded-full bg-cyan-500 hover:bg-cyan-400 text-black font-bold transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(6,182,212,0.4)] flex items-center gap-2"
               >
@@ -172,12 +175,12 @@ const Hero: React.FC = () => {
               <div className="w-full h-full rounded-full overflow-hidden bg-slate-800 border-4 border-slate-800 shadow-2xl relative">
                 {/* Updated Image Source */}
                 <img
-                  src="./assets/1750785046919.jpg"
+                  src={profileImg}
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(PERSONAL_INFO.name)}&background=0f172a&color=06b6d4&size=512&font-size=0.35&bold=true`;
                   }}
-                  alt={PERSONAL_INFO.name}
+                  alt="Arup Jana - Mobile & Full Stack Developer from Kolkata, India"
                   className="w-full h-full object-cover"
                 />
                 {/* Bottom Gradient Overlay */}
